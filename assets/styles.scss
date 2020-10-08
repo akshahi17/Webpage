@@ -9,7 +9,17 @@
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
 }
 
-
+.navbar-fixed {
+ 
+position: fixed;
+ 
+right: 0;
+ 
+left: 0;
+ 
+z-index: 999;
+ 
+}
 .repo-language-color {
     filter: brightness(125%) !important;
     border-radius: 50%;
@@ -54,4 +64,13 @@
   min-height: 100vh;
 }
 
-
+function scrollPage() {
+var sy = scrollY();
+if ( sy &amp;amp;amp;amp;amp;gt;= changeHeaderOn ) {
+classie.add( header, 'cbp-af-header-shrink' );
+}
+else {
+classie.remove( header, 'cbp-af-header-shrink' );
+}
+didScroll = false;
+}
