@@ -63,14 +63,3 @@ z-index: 999;
 .min-height-full {
   min-height: 100vh;
 }
-
-function scrollPage() {
-var sy = scrollY();
-if ( sy &amp;amp;amp;amp;amp;gt;= changeHeaderOn ) {
-classie.add( header, 'cbp-af-header-shrink' );
-}
-else {
-classie.remove( header, 'cbp-af-header-shrink' );
-}
-didScroll = false;
-}
