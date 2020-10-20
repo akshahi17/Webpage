@@ -47,6 +47,10 @@ social_media:
  
    
 topics:
+  - name: Digital Rock Physics
+    web_url: https://www.digitalrocksportal.org
+    image_url: https://user-images.githubusercontent.com/42636201/95743745-db1f3e00-0caf-11eb-85d5-5a4e28eaae20.png
+    
   - name: Python
     web_url: https://github.com/topics/python
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
@@ -58,6 +62,14 @@ topics:
   - name: R
     web_url: https://github.com/topics/r
     image_url: https://user-images.githubusercontent.com/42636201/92883854-e53eea00-f42e-11ea-8c24-b3c7d6cb8543.jpg
+    
+  #- name: Machine Learning
+    web_url: https://github.com/topics/machine-learning
+    image_url: https://user-images.githubusercontent.com/42636201/92883854-e53eea00-f42e-11ea-8c24-b3c7d6cb8543.jpg
+        
+  - name: Deep Learning
+    web_url: https://github.com/topics/deep-learning
+    image_url: https://user-images.githubusercontent.com/42636201/95746537-90ec8b80-0cb4-11eb-8d01-78ac10564111.png
 
 theme: jekyll-theme-cayman
 
